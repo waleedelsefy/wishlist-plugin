@@ -1,0 +1,2488 @@
+.aj-plugin-fw span.description {
+    display    : block;
+    margin-top : 5px;
+    font-size  : 12px;
+    color      : #777;
+    font-style : italic;
+    clear      : both;
+}
+
+.aj-plugin-fw span.description.inline {
+    display : inline-block;
+    margin  : 0 0 0 5px;
+}
+
+.aj-disabled {
+    opacity        : 0.3;
+    pointer-events : none;
+}
+
+.aj-plugin-fw-field-wrapper:not(.aj-plugin-fw-title-field-wrapper) {
+    display : block;
+    width   : 100%;
+}
+
+.aj-plugin-fw-field-wrapper .aj-inline-fields > div {
+    display        : inline-block;
+    vertical-align : middle;
+    margin-right   : 5px;
+}
+
+.aj-plugin-fw-field-wrapper span.desc {
+    display : block;
+    width   : 100%;
+}
+
+.aj-plugin-fw-title-field-wrapper h3.title {
+    width   : 100%;
+    padding : 0 !important;
+}
+
+.the-metabox .aj-plugin-fw-title-field-wrapper h3.title {
+    float : left;
+}
+
+.aj-plugin-fw span.color-alpha {
+    height : 100% !important;
+    width  : 100% !important;
+    border : 1px solid #d9d9d9;
+    margin : -1px;
+}
+
+.aj-plugin-fw .wp-color-result-text {
+    height : 100%;
+}
+
+.aj-plugin-fw input[type=email],
+.aj-plugin-fw input[type=number],
+.aj-plugin-fw input[type=text]:not(.select2-search__field),
+.aj-plugin-fw select,
+.woocommerce .aj-plugin-fw table.form-table input[type=email],
+.woocommerce .aj-plugin-fw table.form-table input[type=number],
+.aj-plugin-ui input[type=password],
+.woocommerce .aj-plugin-fw table.form-table input[type=text]:not(.select2-search__field),
+.woocommerce .aj-plugin-fw table.form-table select {
+    width       : 400px;
+    max-width   : 100%;
+    height      : 30px;
+    padding     : 5px;
+    line-height : 1;
+}
+
+.woocommerce .aj-plugin-fw table.form-table input[type=text].wp-color-picker,
+.woocommerce .aj-plugin-fw table.form-table input[type=text].aj-plugin-fw-colorpicker,
+.aj-plugin-fw input[type=text].wp-color-picker,
+.aj-plugin-fw input[type=text].aj-plugin-fw-colorpicker {
+    width     : 6em;
+    max-width : none;
+    height    : auto;
+    padding   : 3px 5px;
+}
+
+.wp-core-ui .aj-plugin-fw-colorpicker-field-wrapper button {
+    border-color : #7e8993;
+}
+
+.woocommerce .aj-plugin-fw table.form-table input[type=text].colorpick,
+.aj-plugin-fw input[type=text].colorpick {
+    width     : 6em;
+    max-width : none;
+    height    : auto;
+    padding   : 6px;
+}
+
+.aj-plugin-fw input.select2-search__field,
+.aj-plugin-fw .select2-container .select2-search--inline .select2-search__field,
+.woocommerce .aj-plugin-fw input.select2-search__field,
+.woocommerce .aj-plugin-fw table.form-table input.select2-search__field {
+    padding : 3px;
+}
+
+.aj-plugin-fw .select2-container .select2-selection--single .select2-selection__rendered {
+    line-height : 27px;
+}
+
+.aj-plugin-fw textarea:not(.wp-editor-area) {
+    width     : 400px;
+    max-width : 100%;
+    padding   : 5px;
+}
+
+/* ------------- ICONS ------------- */
+.dido-icons-manager-wrapper {
+    width     : 100%;
+    max-width : 400px;
+}
+
+.dido-icons-manager-text {
+    width : 100%;
+}
+
+.dido-icons-manager-icon-text {
+    width  : calc(100% - 35px) !important;
+    height : 30px;
+    float  : left;
+    margin : 0;
+}
+
+.dido-icons-manager-icon-preview {
+    width        : 30px;
+    height       : 30px;
+    margin-right : 5px;
+    float        : left;
+    padding-top  : 6px;
+    box-sizing   : border-box;
+    text-align   : center;
+    background   : #f1f1f1;
+}
+
+.dido-icons-manager-list-wrapper {
+    margin     : 10px 0;
+    box-shadow : 0 0 0 1px #ddd;
+}
+
+ul.dido-icons-manager-list {
+    width      : 100%;
+    height     : 300px;
+    overflow-y : scroll;
+    margin     : 0;
+}
+
+ul.dido-icons-manager-list li {
+    float       : left;
+    width       : 30px;
+    height      : 30px;
+    padding-top : 6px;
+    box-sizing  : border-box;
+    text-align  : center;
+    background  : #f1f1f1;
+    margin      : 1px;
+    cursor      : pointer;
+}
+
+ul.dido-icons-manager-list li:hover {
+    background : #c5dcf6;
+}
+
+ul.dido-icons-manager-list li.active {
+    background : #d4f0ff;
+}
+
+.dido-icons-manager-action-set-default {
+    margin-bottom : 0;
+}
+
+.dido-icons-manager-default-icon-preview {
+    height       : 100%;
+    display      : inline-block;
+    padding-left : 10px;
+    border-left  : 1px solid #ccc;
+    margin-left  : 10px;
+}
+
+/* ------- Text Array ------- */
+.aj-plugin-fw-text-array-table td {
+    padding : 1px;
+}
+
+.aj-plugin-fw-text-array-table input[type=text],
+.woocommerce table.form-table table.aj-plugin-fw-text-array-table input[type=text] {
+    width : 100%;
+}
+
+/* ------- Image Gallery ------- */
+.aj-plugin-fw .aj-plugin-fw-image-gallery ul li {
+    display     : inline-block;
+    width       : 80px;
+    margin-left : 10px;
+    position    : relative;
+}
+
+.aj-plugin-fw .aj-plugin-fw-image-gallery ul li img {
+    width  : 80px;
+    border : 1px solid #ccc;
+}
+
+.aj-plugin-fw .aj-plugin-fw-image-gallery ul li ul {
+    position : absolute;
+    top      : -6px;
+    right    : -1px;
+    width    : 20px;
+    height   : 20px;
+}
+
+.aj-plugin-fw .aj-plugin-fw-image-gallery ul a.delete {
+    background  : url(../images/x.png) no-repeat;
+    width       : 20px;
+    height      : 20px;
+    display     : block;
+    text-indent : -99999px;
+}
+
+/* ------- OnOff ------- */
+.aj-plugin-fw-onoff-container {
+    display    : inline-block;
+    text-align : left;
+}
+
+.aj-plugin-fw-onoff-container input {
+    display : none;
+}
+
+.aj-plugin-fw-onoff-container input + span {
+    cursor        : pointer;
+    text-indent   : -9999px;
+    display       : block;
+    width         : 36px;
+    line-height   : 1;
+    height        : 20px;
+    background    : #a4a4a4;
+    border-radius : 24px;
+    position      : relative;
+    transition    : all 0.3s;
+}
+
+
+.aj-plugin-fw-onoff-container input + span:before {
+    content       : '';
+    background    : #fff;
+    width         : 16px;
+    height        : 16px;
+    border-radius : 50%;
+    position      : absolute;
+    top           : 2px;
+    left          : 2px;
+    transition    : all 0.3s;
+}
+
+.aj-plugin-fw-onoff-container input:checked + span,
+.aj-plugin-fw-onoff-container input.onoffchecked + span {
+    background : #0073aa;
+}
+
+.aj-plugin-fw-onoff-container input:checked + span:before,
+.aj-plugin-fw-onoff-container input.onoffchecked + span:before {
+    left : 18px;
+}
+
+/* ------- Preview ------- */
+.aj-plugin-fw-preview-field {
+    max-height : 200px;
+}
+
+/* ------- Radio ------- */
+.aj-plugin-fw-radio input[type=radio] {
+    margin : 0 3px 0 0;
+}
+
+.aj-plugin-fw-radio__row {
+    margin-bottom : 8px;
+}
+
+/* ------- Checkbox Array ------- */
+.aj-plugin-fw-checkbox-array input[type=checkbox] {
+    margin : 2px 3px 0 0;
+}
+
+.aj-plugin-fw-checkbox-array__row {
+    margin-bottom : 10px;
+    display       : flex;
+}
+
+.aj-plugin-fw-checkbox-array__row label {
+    display     : inline-block !important;
+    width       : auto !important;
+    float       : none !important;
+    margin      : 0 0 0 10px !important;
+    padding     : 0 !important;
+    font-weight : 400 !important;
+}
+
+.aj-plugin-fw-checkbox-array__row label small {
+    display     : block;
+    line-height : 2em;
+}
+
+/* ------- Sidebar Layout ------- */
+.aj-plugin-fw-sidebar-layout input[type="radio"] {
+    display : none;
+    width   : 0px;
+}
+
+.aj-plugin-fw-sidebar-layout input[type="radio"]:first-child {
+    margin-right : -2px;
+}
+
+.aj-plugin-fw-sidebar-layout input[type="radio"] + img {
+    border  : 2px solid #fff;
+    padding : 1px;
+}
+
+.aj-plugin-fw-sidebar-layout input[type="radio"] + img:hover {
+    cursor : pointer;
+}
+
+.aj-plugin-fw-sidebar-layout input[checked] + img {
+    border  : 2px solid #f2ad35;
+    padding : 1px;
+}
+
+.aj-plugin-fw-sidebar-layout select {
+    vertical-align : 12px;
+}
+
+.dido-admin-panel-content-wrap .aj-plugin-fw-sidebar-layout label {
+    font-weight : bold;
+    width       : 200px;
+    float       : left;
+    line-height : 23px;
+    margin-left : -230px;
+}
+
+/* ------- Slider ------- */
+.aj-plugin-fw .slider {
+    padding-top : 20px;
+}
+
+.aj-plugin-fw-slider-container .ui-slider .minCaption {
+    position     : absolute;
+    right        : 95%;
+    top          : -6px;
+    margin-right : 11px;
+}
+
+.aj-plugin-fw-slider-container .ui-slider .maxCaption {
+    position    : absolute;
+    left        : 95%;
+    top         : -6px;
+    margin-left : 20px;
+}
+
+.aj-plugin-fw-slider-container .ui-slider-horizontal .ui-slider-handle {
+    background    : #fff;
+    border        : 0px !important;
+    top           : -12px !important;
+    border-radius : 50%;
+    width         : 27px !important;
+    height        : 27px !important;
+    box-sizing    : border-box;
+    box-shadow    : 0 1px 7px -1px rgba(0, 0, 0, 0.5);
+    font-size     : 13px;
+    padding       : 6px 0;
+    font-weight   : 600;
+    color         : #555;
+    text-align    : center;
+}
+
+.aj-plugin-fw-slider-container .ui-slider.ui-widget-content {
+    background    : #ccc;
+    border        : none !important;
+    height        : 3px !important;
+    border-radius : 3px !important;
+    width         : 90%;
+    margin        : 15px 5% 20px 5%;
+}
+
+.aj-plugin-fw-slider-container .ui-slider.ui-widget-content .ui-widget-header {
+    background            : #4b93ff;
+    left                  : 0px !important;
+    -webkit-border-radius : 3px;
+    -moz-border-radius    : 3px;
+    -khtml-border-radius  : 3px;
+    border-radius         : 3px;
+}
+
+/* ------- Select2 ------- */
+.aj-plugin-fw-select2-wrapper {
+    width : 400px;
+}
+
+/* ------- Textarea ------- */
+.aj-plugin-fw-textarea-editor-field-wrapper {
+    max-width : 1000px;
+    clear     : both;
+}
+
+.aj-plugin-fw-textarea-editor-field-wrapper textarea.wp-editor-area,
+.woocommerce table.form-table .aj-plugin-fw-textarea-editor-field-wrapper textarea.wp-editor-area {
+    width : 100%;
+}
+
+/* ------- Buttons ------- */
+.aj-plugin-fw-buttons-field-wrapper {
+    margin-top : 7px;
+}
+
+/* ------- Select Images ------- */
+.aj-plugin-fw-select-images__list {
+    margin    : 0;
+    display   : flex;
+    flex-wrap : wrap;
+}
+
+.aj-plugin-fw-select-images__item {
+    width           : calc(20% - 10px);
+    min-width       : 150px;
+    margin          : 0 10px 10px 0;
+    padding         : 10px;
+    box-sizing      : border-box;
+    cursor          : pointer;
+    transition      : all .3s;
+    border          : 2px solid #eee;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : space-between;
+}
+
+.aj-plugin-fw-select-images__item:hover,
+.aj-plugin-fw-select-images__item.aj-plugin-fw-select-images__item--selected {
+    border-color : #07bcce;
+}
+
+.aj-plugin-fw-select-images__item__label {
+    text-align    : center;
+    font-weight   : 600;
+    margin-bottom : 10px;
+}
+
+.aj-plugin-fw-select-images__item img {
+    display   : block;
+    max-width : 100%;
+    margin    : 0 auto;
+}
+
+/****************
+WordPress 5.3 with old panel fixes
+ ****************/
+.aj-plugin-fw-field-wrapper .select2-container .select2-selection--single {
+    height      : auto;
+    line-height : 1;
+}
+
+.aj-plugin-fw-field-wrapper .select2-container .select2-selection--single .select2-selection__arrow {
+    height : 100%;
+}
+
+/****************
+AJ UI
+ ****************/
+@font-face {
+    font-family : 'aj-icon';
+    src         : url('../fonts/aj-icon.eot?g6bfgy');
+    src         : url('../fonts/aj-icon.eot?g6bfgy#iefix') format('embedded-opentype'),
+    url('../fonts/aj-icon.ttf?g6bfgy') format('truetype'),
+    url('../fonts/aj-icon.woff?g6bfgy') format('woff'),
+    url('../fonts/aj-icon.svg?g6bfgy#aj-icon') format('svg');
+    font-weight : normal;
+    font-style  : normal;
+}
+
+[class^="icon-"], [class*=" icon-"][class^="aj-icon-"], [class*=" aj-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family             : 'aj-icon' !important;
+    speak                   : none;
+    font-style              : normal;
+    font-weight             : normal;
+    font-variant            : normal;
+    text-transform          : none;
+    line-height             : 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing  : antialiased;
+    -moz-osx-font-smoothing : grayscale;
+}
+
+.aj-icon-paypal-svgrepo-com:before {
+    content : "\e91b";
+}
+
+.aj-icon-check-circle:before {
+    content : "\e921";
+    color   : #757575;
+}
+
+.aj-icon-info-squared:before {
+    content : "\e922";
+    color   : #757575;
+}
+
+.aj-icon-warning-triangle:before {
+    content : "\e923";
+    color   : #757575;
+}
+
+.aj-icon-bank:before {
+    content : "\e91c";
+}
+
+.aj-icon-accounting:before {
+    content : "\e91d";
+}
+
+.aj-icon-bank-check:before {
+    content : "\e91e";
+}
+
+.aj-icon-cash:before {
+    content : "\e91f";
+}
+
+.aj-icon-credit-card:before {
+    content : "\e920";
+}
+
+.aj-icon-calendar_add:before {
+    content : "\e913";
+    color   : #757575;
+}
+
+.aj-icon-calendar_money:before {
+    content : "\e914";
+    color   : #757575;
+}
+
+.aj-icon-calendar2:before {
+    content : "\e915";
+    color   : #757575;
+}
+
+.aj-icon-people:before {
+    content : "\e916";
+    color   : #757575;
+}
+
+.aj-icon-shield_money:before {
+    content : "\e917";
+    color   : #757575;
+}
+
+.aj-icon-time_check:before {
+    content : "\e918";
+    color   : #757575;
+}
+
+.aj-icon-world_settings:before {
+    content : "\e919";
+    color   : #757575;
+}
+
+.aj-icon-arrow_eye_closed:before {
+    content : "\e912";
+    color   : #757575;
+}
+
+.aj-icon-arrow_eye:before {
+    content : "\e911";
+    color   : #757575;
+}
+
+.aj-icon-reset:before {
+    content : "\e910";
+    color   : #757575;
+}
+
+.aj-icon-drag:before {
+    content : "\e90f";
+    color   : #757575;
+}
+
+.aj-icon-trash:before {
+    content : "\e90d";
+    color   : #757575;
+}
+
+.aj-icon-info:before {
+    content : "\e90e";
+    color   : #757575;
+}
+
+.aj-icon-arrow_down:before {
+    content : "\e900";
+    color   : #757575;
+}
+
+.aj-icon-arrow_left:before {
+    content : "\e901";
+    color   : #757575;
+}
+
+.aj-icon-arrow_right:before {
+    content : "\e902";
+    color   : #757575;
+}
+
+.aj-icon-arrow_up:before {
+    content : "\e903";
+    color   : #757575;
+}
+
+.aj-icon-calendar:before {
+    content : "\e904";
+    color   : #757575;
+}
+
+.aj-icon-check:before {
+    content : "\e905";
+    color   : #757575;
+}
+
+.aj-icon-close:before {
+    content : "\e906";
+    color   : #757575;
+}
+
+.aj-icon-edit:before {
+    content : "\e907";
+    color   : #757575;
+}
+
+.aj-icon-magnifier:before {
+    content : "\e908";
+    color   : #757575;
+}
+
+.aj-icon-pencil:before {
+    content : "\e909";
+    color   : #757575;
+}
+
+.aj-icon-plus:before {
+    content : "\e90a";
+    color   : #757575;
+}
+
+.aj-icon-update:before {
+    content : "\e90b";
+    color   : #757575;
+}
+
+.aj-icon-upload:before {
+    content : "\e90c";
+    color   : #757575;
+}
+
+.aj-icon-reply:before {
+    content : "\e91a";
+}
+
+.aj-plugin-fw-banner {
+    width         : 100%;
+    height        : 45px;
+    background    : #cfd9dd url(../images/banner-premium.png) no-repeat;
+    display       : flex;
+    align-items   : center;
+    padding-right : -23px;
+}
+
+.aj-plugin-fw-banner h1 {
+    text-transform : uppercase;
+    color          : #BC6C25;
+    font-size      : 15px;
+    padding        : 0 0 0 110px;
+    font-weight    : 700;
+    text-align     : left;
+    display        : inline-block;
+    box-sizing     : border-box;
+}
+
+.aj-plugin-fw-banner span {
+    font-style     : italic;
+    display        : block;
+    font-size      : 15px;
+    color          : #214249;
+    text-transform : none;
+    text-align     : right;
+}
+
+.aj-plugin-fw-banner a,
+.aj-plugin-fw-banner a:focus {
+    text-decoration : none;
+    outline         : none;
+    box-shadow      : none;
+}
+
+.aj-plugin-fw-rate {
+    margin : 20px 0;
+}
+
+.aj-plugin-fw-rate .dashicons-star-filled {
+    font-size : 12px;
+    margin    : 4px -4px;
+    color     : #BC6C25;
+}
+
+.aj-plugin-fw-rate a {
+    text-decoration : none;
+}
+
+.aj-plugin-ui a {
+    outline    : none;
+    box-shadow : none;
+}
+
+.aj-plugin-ui {
+    font-family : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.aj-plugin-ui #wpwrap h2.nav-tab-wrapper, .aj-plugin-ui #wpbody-content h2.nav-tab-wrapper {
+    margin-top : 10px;
+}
+
+.aj-plugin-ui .nav-tab {
+    margin-left      : 0px;
+    margin-right     : 2px;
+    background-color : #BC6C25;
+    color            : #fff;
+    font-size        : 15px;
+    padding          : 7px 20px;
+    border           : 0;
+    transition       : background-color 0.3s linear;
+}
+
+.aj-plugin-ui .nav-tab:first-child {
+    border-left : 1px solid #d9d9d9;
+}
+
+.aj-plugin-ui .nav-tab.aj-premium {
+    background-color : #be421c;
+}
+
+.aj-plugin-ui .aj-nav-tab-wrapper .aj-plugin-fw-tab-element:hover > a.nav-tab:not(.nav-tab-active),
+.aj-plugin-ui .aj-nav-tab-wrapper .nav-tab:not(.nav-tab-active):hover {
+    background-color : #207a92;
+}
+
+.aj-plugin-ui .nav-tab-active {
+    background-color : #fff;
+    color            : #BC6C25;
+    border-bottom    : 1px solid #fff;
+}
+
+.aj-plugin-ui .nav-tab-active.aj-premium {
+    background-color : #fff;
+    color            : #be421c;
+}
+
+.aj-plugin-ui #plugin-fw-wc {
+    padding-top : 0px;
+}
+
+.aj-plugin-ui .form-table td {
+    padding : 15px 20px;
+}
+
+.aj-plugin-ui.metaboxes-tab label {
+    color       : #33373b;
+    font-size   : 14px;
+    margin-left : -248px;
+}
+
+.aj-plugin-ui.metaboxes-tab .the-metabox {
+    margin      : 40px 0 40px 290px;
+    margin-left : 264px;
+}
+
+.aj-plugin-ui.metaboxes-tab label {
+    width       : 200px;
+    font-weight : 600;
+}
+
+.aj-plugin-ui span.description {
+    color       : #716269;
+    font-size   : 13px;
+    font-style  : normal;
+    font-weight : 400;
+    margin-top  : 15px;
+    margin-left : 0;
+}
+
+#wpwrap .aj-plugin-ui h2.nav-tab-wrapper, #wpbody-content .aj-plugin-ui h2.nav-tab-wrapper {
+    border           : 0;
+    /* border-bottom    : 1px solid #ccc; */
+    margin-right     : 15px;
+    margin-bottom    : 0;
+    background-color : transparent;
+    padding-left     : 0;
+}
+
+.aj-plugin-ui #plugin-fw-wc table.form-table,
+.aj-plugin-ui #aj-plugin-fw-panel table.form-table,
+.aj-plugin-ui table.form-table {
+    border        : 1px solid #d8d8d8;
+    border-top    : 0;
+    margin-bottom : 40px;
+}
+
+.aj-plugin-ui #wpwrap h2.nav-tab-wrapper, .aj-plugin-ui #wpbody-content h2.nav-tab-wrapper {
+    background-color : transparent;
+    border           : 0;
+    text-transform   : none;
+    border-bottom    : 1px solid #ddd;
+}
+
+.aj-plugin-ui h2 {
+    color            : #2a8db0;
+    font-size        : 16px;
+    border           : 1px solid #d8d8d8;
+    border-bottom    : 0;
+    background-color : #fff;
+    padding          : 35px 20px;
+    margin           : 0px;
+}
+
+.aj-plugin-ui .aj-plugin-fw-custom-tab h2 {
+    border       : 0px solid #d8d8d8;
+    padding-left : 0;
+}
+
+.aj-plugin-ui #plugin-fw-wc table.form-table th, #aj-plugin-fw-panel table.form-table th.titledesc, .aj-plugin-ui #plugin-fw-wc table.form-table td, #aj-plugin-fw-panel table.form-table td.forminp {
+    padding : 30px 20px;
+}
+
+.aj-plugin-ui #plugin-fw-wc table.form-table tr.toggle-element-fixed td, #aj-plugin-fw-panel table.form-table tr.toggle-element-fixed td.forminp {
+    padding : 0 20px 30px;
+}
+
+.aj-plugin-ui #plugin-fw-wc h2 + div {
+    background     : #fff;
+    border-left    : 1px solid #d9d9d9;
+    border-right   : 1px solid #d9d9d9;
+    margin         : -20px 0 0 0;
+    padding-left   : 20px;
+    padding-bottom : 5px;
+}
+
+.aj-plugin-ui #plugin-fw-wc h2 + div p, .aj-plugin-ui p.info-box {
+    background    : #f1f1f1;
+    font-size     : 14px;
+    font-weight   : 700;
+    width         : 50%;
+    display       : block;
+    padding       : 15px;
+    margin-bottom : 0;
+}
+
+.aj-plugin-ui #plugin-fw-wc h2 + div p:before, .aj-plugin-ui p.info-box:before {
+    content      : "\e90e";
+    font-family  : aj-icon;
+    font-size    : 30px;
+    font-weight  : normal;
+    display      : block;
+    margin-top   : -12px;
+    float        : left;
+    margin-right : 15px;
+}
+
+.aj-plugin-ui h2:first-child {
+    border-top : 0;
+}
+
+/*** Icon ***/
+.aj-plugin-ui span.aj-icon {
+    margin-left : -36px;
+    line-height : 36px;
+    font-size   : 20px;
+}
+
+/*** General Input Style ***/
+
+.aj-plugin-ui .aj-plugin-fw select,
+.aj-plugin-ui textarea:not(.wp-editor-area),
+.aj-plugin-ui input[type=number],
+.aj-plugin-ui.metaboxes-tab input[type=number],
+.aj-plugin-ui input[type=text],
+.aj-plugin-ui input[type=text],
+.aj-plugin-ui input[type=email],
+.aj-plugin-ui input[type=password],
+.aj-plugin-ui .search-box input[name="s"],
+.aj-plugin-fw.aj-plugin-ui input[type=text]:not(.select2-search__field),
+.woocommerce.aj-plugin-fw-panel .aj-plugin-ui table.form-table input[type=text]:not(.select2-search__field),
+.woocommerce.aj-plugin-fw-panel .aj-plugin-ui table.form-table select,
+.woocommerce.aj-plugin-fw-panel .aj-plugin-ui table.form-table textarea:not(.wp-editor-area),
+.woocommerce .aj-plugin-fw table.form-table input[type=password],
+.woocommerce.aj-plugin-fw-panel .aj-plugin-ui table.form-table input[type=number],
+.woocommerce.aj-plugin-fw-panel .aj-plugin-ui table.form-table input[type=text] {
+    border        : 1px solid #d8d8d8;
+    border-radius : 8px;
+    padding       : 8px 10px;
+    height        : 38px;
+    min-width     : 90px;
+    box-shadow    : none;
+    color         : #716269;
+}
+
+.aj-plugin-ui textarea:not(.wp-editor-area),
+.woocommerce.aj-plugin-fw-panel .aj-plugin-ui table.form-table textarea:not(.wp-editor-area) {
+    height  : auto;
+    padding : 8px;
+}
+
+.aj-plugin-ui input[type=text]:not(.select2-search__field).wp-color-picker,
+.aj-plugin-ui table.form-table input[type=text].wp-color-picker,
+.woocommerce.aj-plugin-fw-panel .aj-plugin-ui table.form-table input[type=text].wp-color-picker {
+    border    : 0;
+    height    : 30px;
+    max-width : 121px;
+    font-size : 11px;
+    padding   : 0;
+}
+
+.aj-plugin-ui .search-box input[name="s"] {
+    height : 35px;
+}
+
+.woocommerce.aj-plugin-fw-panel .aj-plugin-ui table.form-table input[type=text].small-text,
+.aj-plugin-ui input[type=text].small-text {
+    width  : 100px;
+    height : 25px;
+    border : 1px solid #d9d9d9;
+}
+
+
+.aj-plugin-ui select:focus,
+.aj-plugin-ui input:focus {
+    border-color : #a7d9ec !important;
+}
+
+.woocommerce .aj-plugin-ui table.form-table select,
+.woocommerce.aj-plugin-fw-panel .aj-plugin-ui table.form-table select,
+.aj-plugin-ui select {
+    -webkit-appearance : none;
+    line-height        : 1.2em;
+    min-height         : 35px;
+    background         : url("../images/arrow_down.svg") no-repeat right center;
+    background-size    : 35px 13px;
+    border-radius      : 8px;
+    padding-right      : 30px;
+}
+
+.aj-plugin-ui .form-table th {
+    width         : 200px;
+    padding-right : 50px;
+}
+
+/** BUTTONS **/
+.wp-core-ui .aj-plugin-ui .button-primary,
+.wp-core-ui .aj-plugin-ui .button-secondary,
+.aj-plugin-ui .aj-add-button,
+.aj-plugin-ui .aj-save-button,
+.aj-plugin-ui .aj-edit-button,
+.aj-plugin-ui .aj-update-button,
+.aj-plugin-ui .aj-plugin-fw-select-all,
+.aj-plugin-ui .aj-plugin-fw-deselect-all,
+.aj-plugin-ui .aj-plugin-fw-upload-button,
+.aj-plugin-ui .aj-plugin-fw-upload-button-reset {
+    border-radius    : 3px;
+    text-transform   : uppercase;
+    box-shadow       : none;
+    border           : 0;
+    font-weight      : 700;
+    font-size        : 11px;
+    padding          : 0px 14px;
+    outline          : none;
+    height           : auto;
+    transition       : all ease 0.3s;
+    background-color : #d6d6d6;
+    color            : #656565;
+    text-shadow      : none;
+    vertical-align   : middle;
+    line-height      : 26px;
+    display          : inline-block;
+    text-decoration  : none;
+    cursor           : pointer;
+}
+
+.wp-core-ui .aj-plugin-ui .button-secondary.aj-plugin-fw-upload-button-reset,
+.wp-core-ui .aj-plugin-ui .button-secondary.aj-plugin-fw-upload-button,
+.aj-plugin-ui .aj-plugin-fw-upload-button-reset,
+.aj-plugin-ui .button-secondary.aj-plugin-fw-upload-button-reset,
+.aj-plugin-ui .button-secondary.aj-plugin-fw-upload-button {
+    height : 38px;
+}
+
+.wp-core-ui .aj-plugin-ui .button:focus,
+.wp-core-ui .aj-plugin-ui .button-primary:focus,
+.aj-plugin-ui .aj-add-button:focus,
+.aj-plugin-ui .aj-save-button:focus,
+.aj-plugin-ui .aj-edit-button:focus,
+.aj-plugin-ui .aj-update-button:focus,
+.wp-core-ui .aj-plugin-ui .button-secondary:focus {
+    outline    : none;
+    box-shadow : none;
+}
+
+.wp-core-ui .aj-plugin-ui .button-xl {
+    padding     : 0px 20px;
+    font-size   : 14px;
+    line-height : 38px;
+    display     : inline-block;
+    font-weight : 600;
+}
+
+/** button with inside a span with icon class */
+.aj-plugin-ui .button-secondary span.aj-icon {
+    margin-left  : 0px;
+    margin-right : 10px;
+    line-height  : normal;
+}
+
+.aj-plugin-ui .button-secondary span.aj-icon:before {
+    color     : #656565;
+    font-size : 15px;
+}
+
+
+.wp-core-ui .aj-plugin-ui .button:focus,
+.wp-core-ui .aj-plugin-ui .button-secondary:focus,
+.aj-plugin-ui .aj-save-button:hover,
+.wp-core-ui .aj-plugin-ui .button-secondary:hover,
+.aj-plugin-ui .aj-plugin-fw-upload-button-reset:hover {
+    background-color : #cacaca;
+    color            : #515151;
+}
+
+.wp-core-ui .aj-plugin-ui .button-primary,
+.aj-plugin-ui .button-secondary.aj-plugin-fw-select-all,
+.aj-plugin-ui .button-secondary.aj-plugin-fw-upload-button {
+    background-color : #007694;
+    color            : #fff;
+}
+
+
+.aj-plugin-ui .aj-add-button,
+.wp-core-ui .aj-plugin-ui .button-primary:focus,
+.wp-core-ui .aj-plugin-ui .button-primary:hover {
+    background-color : #375f6b;
+    color            : #fff;
+    cursor           : pointer;
+}
+
+
+.aj-plugin-ui .aj-add-button:hover,
+.wp-core-ui .aj-plugin-ui .aj-plugin-fw-upload-button:focus,
+.aj-plugin-ui .button-secondary.aj-plugin-fw-select-all:hover,
+.aj-plugin-ui .button-secondary.aj-plugin-fw-select-all:focus,
+.aj-plugin-ui .aj-plugin-fw-upload-button:hover {
+    border-color : #007694;
+    background   : #007694;
+    color        : #fff;
+    line-height  : 26px;
+    margin-left  : 0;
+}
+
+.aj-plugin-ui .button-primary:before,
+.aj-plugin-ui .aj-add-button:before,
+.aj-plugin-ui .aj-save-button:before,
+.aj-plugin-ui .aj-edit-button:before,
+.aj-plugin-ui .aj-update-button:before,
+.aj-plugin-ui .button-secondary:before {
+    font-family    : 'aj-icon';
+    font-size      : 10px;
+    font-weight    : 700;
+    margin-right   : 10px;
+    vertical-align : bottom;
+    display        : inline-block;
+}
+
+/** aj-edit-button **/
+.aj-plugin-ui .aj-edit-button {
+    background-color : #7f9298;
+    color            : #fff;
+}
+
+.aj-plugin-ui .aj-edit-button:focus,
+.aj-plugin-ui .aj-edit-button:hover {
+    background-color : #718085;
+    color            : #fff;
+}
+
+.aj-plugin-ui .aj-edit-button:before {
+    content : "\e907";
+}
+
+/** aj-update-button **/
+.aj-plugin-ui .aj-update-button {
+    background-color : #94aa09;
+    color            : #fff;
+}
+
+.aj-plugin-ui .aj-update-button:focus,
+.aj-plugin-ui .aj-update-button:hover {
+    background-color : #7a9009;
+    color            : #fff;
+}
+
+.aj-plugin-ui .aj-update-button:before {
+    content   : "\e90b";
+    font-size : 15px;
+}
+
+/** aj-save-button **/
+
+.aj-plugin-ui .aj-save-button {
+    background-color : #267390;
+    color            : #fff;
+}
+
+.aj-plugin-ui .aj-save-button:focus,
+.aj-plugin-ui .aj-save-button:hover {
+    background-color : #1c4863;
+    color            : #fff;
+}
+
+
+/** aj-remove-button **/
+
+.aj-plugin-ui .button-secondary.aj-remove-button:before {
+    content   : "\e90d";
+    font-size : 15px;
+}
+
+
+/** aj-add-button **/
+.aj-plugin-ui .aj-add-button:before {
+    content : "\e90a";
+}
+
+.aj-plugin-ui .aj-add-button.closed {
+    background-color : #fff;
+    color            : #375f6b;
+    border           : 1px solid #375f6b;
+}
+
+.aj-plugin-ui .aj-add-button.closed:before {
+    content : "\e906";
+}
+
+
+/** aj-plugin-fw-upload-button **/
+.aj-plugin-ui button.aj-plugin-fw-upload-button:before {
+    content        : "\e90c";
+    font-family    : 'aj-icon';
+    font-size      : 19px;
+    font-weight    : 400;
+    margin-right   : 10px;
+    vertical-align : middle;
+    display        : inline-block;
+}
+
+/** SELECT 2 **/
+.aj-plugin-ui .select2-container,
+.aj-plugin-ui .select2-selection--single {
+    height  : auto;
+    padding : 2px;
+    outline : none;
+}
+
+.aj-plugin-ui .select2-container .select2-selection--single,
+.aj-plugin-ui .select2-container .select2-selection--multiple,
+.aj-plugin-ui .select2-container.select2-container--focus .select2-selection--single,
+.aj-plugin-ui .select2-container.select2-container--focus .select2-selection--multiple,
+.aj-plugin-ui .select2-container.select2-container--open .select2-selection--single,
+.aj-plugin-ui .select2-container.select2-container--open .select2-selection--multiple {
+    margin     : 0;
+    border     : 0;
+    box-shadow : none;
+}
+
+.aj-plugin-ui .select2-container .select2-selection--single .select2-selection__arrow {
+    background : none;
+}
+
+/* old panel*/
+
+.aj-plugin-ui span.select2.select2-container.select2-container--default,
+span.select2.select2-container.select2-container--default.aj-plugin-fw-select2-container {
+    border        : 1px solid #d8d8d8;
+    border-radius : 8px;
+}
+
+.aj-plugin-ui span.select2.select2-container.select2-container--default:hover,
+.aj-plugin-ui span.select2.select2-container.select2-container--default:active,
+.aj-plugin-ui span.select2.select2-container.select2-container--default:focus {
+    border-color : #a7d9ec;
+}
+
+.aj-plugin-ui .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color : #fff;
+}
+
+.woocommerce.aj-plugin-fw-panel .aj-plugin-ui table.form-table input[type=text].select2-search__field,
+.aj-plugin-ui .aj-plugin-fw table.form-table input.select2-search__field {
+    border  : 0;
+    padding : 0;
+    height  : initial;
+}
+
+.aj-plugin-ui .select2-container--default .select2-selection--multiple .select2-selection__choice,
+.aj-plugin-ui .select2-selection__choice {
+    color            : #fff;
+    background-color : #4e8ba2;
+    border-radius    : 12px;
+    padding          : 3px 11px;
+    border-color     : #4e8ba2;
+    font-size        : 13px;
+}
+
+.wc-wp-version-gte-53 .aj-plugin-ui .select2-container .select2-selection--single .select2-selection__arrow {
+    background-image : none;
+}
+
+.aj-plugin-ui .select2-container--default .select2-selection--single .select2-selection__arrow:before {
+    content     : "\e900";
+    font-family : 'aj-icon' !important;
+    line-height : 36px;
+    color       : #d9d9d9;
+}
+
+.aj-plugin-ui .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    display : none;
+}
+
+.aj-plugin-fw-select2-container.select2-container--open .select2-dropdown--below,
+.aj-plugin-fw-select2-container.select2-container--open .select2-dropdown--above {
+    margin-top    : 10px;
+    border-radius : 8px;
+    box-shadow    : 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.aj-plugin-fw-select2-container.select2-container--open .select2-dropdown--above {
+    margin-top : -10px;
+}
+
+.aj-plugin-fw-select2-container.select2-container--default.select2-container--open.select2-container--below .select2-selection--single,
+.aj-plugin-fw-select2-container.select2-container--default.select2-container--open.select2-container--above .select2-selection--single {
+    border-radius : 8px;
+}
+
+.aj-plugin-fw-select2-container .select2-results .select2-results__group, .select2-results .select2-results__option:first-child {
+    border-top-left-radius  : 8px;
+    border-top-right-radius : 8px;
+}
+
+.aj-plugin-fw-select2-container .select2-results .select2-results__group,
+.aj-plugin-fw-select2-container .select2-results .select2-results__option:last-child {
+    border-bottom-left-radius  : 8px;
+    border-bottom-right-radius : 8px;
+}
+
+.aj-plugin-fw-select2-container .select2-dropdown {
+    border : 0;
+}
+
+.aj-plugin-fw-select2-container.select2-container--default .select2-results__option[data-selected=true] {
+    background-color : #fff;
+    outline          : none;
+}
+
+.aj-plugin-fw-select2-container.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color : #e8eff1;
+    color            : #4e8ba2;
+    outline          : none;
+}
+
+.aj-plugin-ui .select2-container--default .select2-selection--multiple .select2-selection__choice__remove,
+.aj-plugin-fw-panel .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    float        : right;
+    padding-left : 15px;
+    text-indent  : -9999px;
+}
+
+.aj-plugin-fw-panel .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:after,
+.aj-plugin-ui .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:after {
+    float       : right;
+    color       : #fff;
+    content     : "\e906";
+    font-family : 'aj-icon' !important;
+    font-size   : 9px;
+    line-height : 21px;
+    text-indent : 0;
+}
+
+.aj-plugin-ui .select2-container .select2-selection--multiple,
+.aj-plugin-ui .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border : 0;
+}
+
+.aj-plugin-fw .select2-search input[type=text] {
+    border  : 0;
+    padding : 0;
+    height  : auto;
+}
+
+.aj-plugin-ui .aj-plugin-fw-select-field-wrapper span.aj-icon.aj-icon-magnifier,
+.aj-plugin-fw-panel .aj-plugin-fw-select-field-wrapper span.aj-icon.aj-icon-magnifier {
+    position    : absolute;
+    padding-top : 5px;
+}
+
+.aj-plugin-ui input[type=text].select2-search__field {
+    border  : 0;
+    padding : 0;
+    height  : 30px;
+}
+
+.aj-plugin-ui .select2-container--default .select2-search--dropdown .select2-search__field,
+.aj-plugin-fw-panel .select2-container--default .select2-search--dropdown .select2-search__field {
+    border        : 1px solid #d9d9d9;
+    border-radius : 8px;
+    box-shadow    : none;
+}
+
+.aj-plugin-ui .select2-dropdown,
+.aj-plugin-fw-panel .select2-dropdown {
+    border : 1px solid #d9d9d9;
+}
+
+/** RADIO BUTTON **/
+.aj-plugin-ui [type="radio"]:checked,
+.aj-plugin-ui [type="radio"]:not(:checked) {
+    position : absolute;
+    left     : -9999px;
+}
+
+.aj-plugin-ui [type="radio"]:checked + label,
+.aj-plugin-ui [type="radio"]:not(:checked) + label {
+    position     : relative;
+    padding-left : 35px;
+    cursor       : pointer;
+    line-height  : 20px;
+    display      : inline-block;
+    color        : #716269;
+    font-size    : 14px;
+}
+
+.aj-plugin-ui [type="radio"]:checked + label:before,
+.aj-plugin-ui [type="radio"]:not(:checked) + label:before {
+    content       : '';
+    position      : absolute;
+    left          : 0;
+    top           : 0;
+    width         : 19px;
+    height        : 19px;
+    border        : 1px solid #d8d8d8;
+    border-radius : 100%;
+    background    : #fff;
+}
+
+.aj-plugin-ui [type="radio"]:checked + label:after,
+.aj-plugin-ui [type="radio"]:not(:checked) + label:after {
+    content            : '';
+    width              : 13px;
+    height             : 13px;
+    background         : #4e8ba2;
+    position           : absolute;
+    top                : 4px;
+    left               : 4px;
+    border-radius      : 100%;
+    -webkit-transition : all 0.2s ease;
+    transition         : all 0.2s ease;
+}
+
+.aj-plugin-ui [type="radio"]:not(:checked) + label:after {
+    opacity           : 0;
+    -webkit-transform : scale(0);
+    transform         : scale(0);
+}
+
+.aj-plugin-ui [type="radio"]:checked + label:after {
+    opacity           : 1;
+    -webkit-transform : scale(1);
+    transform         : scale(1);
+}
+
+/** CHECKBOX **/
+.aj-plugin-ui input[type="checkbox"] {
+    -webkit-appearance : none;
+    background-color   : #fff;
+    border             : 1px solid #d8d8d8;
+    box-shadow         : none;
+    width              : 18px;
+    height             : 18px;
+    border-radius      : 3px;
+    display            : inline-block;
+    position           : relative;
+}
+
+.aj-plugin-ui input[type="checkbox"]:checked {
+    background-color : #4e8ba2;
+    border-color     : #488197;
+}
+
+.aj-plugin-ui .forminp-checkbox span.description.inline {
+    margin-left : 10px;
+}
+
+.aj-plugin-ui input[type="checkbox"]:checked:before {
+    display : none;
+}
+
+.aj-plugin-ui input[type="checkbox"]:checked:after {
+    content     : "\e905";
+    font-family : 'aj-icon';
+    font-size   : 15px;
+    position    : absolute;
+    top         : 8px;
+    left        : 1px;
+    color       : #fff;
+}
+
+/** ONOFF **/
+.aj-plugin-ui .aj-plugin-fw-onoff-container input[type="checkbox"] {
+    display : none;
+}
+
+.aj-plugin-ui .aj-plugin-fw-onoff-container input + span {
+    border           : 1px solid #d8d8d8;
+    background-color : #fff;
+    width            : 60px;
+    height           : 24px;
+    line-height      : 14px;
+    padding          : 4px;
+    box-sizing       : border-box;
+}
+
+.aj-plugin-ui .aj-plugin-fw-onoff-container input + span:before {
+    background-color : #d8d8d8;
+}
+
+.aj-plugin-ui .aj-plugin-fw-onoff-container input + span:before {
+    width            : 13px;
+    height           : 13px;
+    top              : 5px;
+    left             : 6px;
+    background-color : #d8d8d8;
+}
+
+.aj-plugin-ui .aj-plugin-fw-onoff-container input + span:after {
+    content      : attr(data-text-off);
+    height       : 14px;
+    font-size    : 12px;
+    font-weight  : 600;
+    padding-left : 18px;
+    color        : #979797;
+    display      : block;
+    white-space  : nowrap;
+    text-align   : center;
+}
+
+.aj-plugin-ui .aj-plugin-fw-onoff-container input:checked + span,
+.aj-plugin-ui .aj-plugin-fw-onoff-container input.onoffchecked + span {
+    background-color : #fff;
+    border-color     : #BC6C25;
+}
+
+.aj-plugin-ui .aj-plugin-fw-onoff-container input:checked + span:before,
+.aj-plugin-ui.aj-plugin-fw-onoff-container input.onoffchecked + span:before {
+    background-color : #BC6C25;
+    left             : 38px;
+}
+
+.aj-plugin-ui .aj-plugin-fw-onoff-container input:checked + span:after,
+.aj-plugin-ui.aj-plugin-fw-onoff-container input.onoffchecked + span:after {
+    content       : attr(data-text-on);
+    color         : #BC6C25;
+    height        : 14px;
+    font-size     : 12px;
+    font-weight   : 600;
+    padding-left  : 0;
+    padding-right : 18px;
+    display       : block;
+    white-space   : nowrap;
+    text-align    : center;
+}
+
+.aj-plugin-ui .aj-plugin-fw-onoff-container input + span {
+    text-indent : 0;
+}
+
+
+/**
+DATEPICKER
+ */
+div#ui-datepicker-div.aj-plugin-fw-datepicker-div {
+    border     : 0;
+    box-shadow : 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-datepicker-header.ui-widget-header {
+    background  : #4e8ba2;
+    color       : #fff;
+    font-size   : 11px;
+    line-height : 25px;
+    border      : 0;
+    min-height  : 25px;
+}
+
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-datepicker-title {
+    line-height : 25px;
+}
+
+#ui-datepicker-div.aj-plugin-fw-datepicker-div.ui-datepicker th {
+    color : #716269;
+}
+
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-widget-header .ui-icon,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-widget-header .ui-state-hover,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div.ui-datepicker .ui-datepicker-prev,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div.ui-datepicker .ui-datepicker-next,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-icon.ui-icon-circle-triangle-w,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-icon.ui-icon-circle-triangle-e {
+    background  : none;
+    content     : "";
+    border      : 0;
+    text-indent : 0;
+    width       : 15px;
+    height      : 20px;
+    display     : block;
+    overflow    : hidden;
+}
+
+.aj-plugin-ui .aj-password-wrapper {
+    display  : inline-block;
+    width    : auto;
+    position : relative;
+}
+
+.aj-plugin-ui .aj-password-wrapper .aj-password-eye-closed:before,
+.aj-plugin-ui .aj-password-wrapper .aj-password-eye:before {
+    content     : '\e911';
+    color       : #999;
+    font-family : 'aj-icon';
+    font-size   : 20px;
+    font-weight : normal;
+    width       : 15px;
+    display     : block;
+    position    : absolute;
+    right       : 13px;
+    top         : 0;
+    line-height : 38px;
+    bottom      : 0;
+    cursor      : pointer;
+}
+
+.aj-plugin-ui .aj-password-wrapper .aj-password-eye-closed:before {
+    content : '\e912';
+}
+
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-icon.ui-icon-circle-triangle-w:before {
+    content     : "\e901";
+    color       : #fff;
+    font-family : 'aj-icon';
+    font-size   : 12px;
+    font-weight : normal;
+    width       : 15px;
+    display     : block;
+}
+
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-icon.ui-icon-circle-triangle-e:before {
+    content     : "\e902";
+    color       : #fff;
+    text-indent : 0;
+    font-family : 'aj-icon';
+    font-size   : 12px;
+    font-weight : normal;
+    width       : 15px;
+    display     : block;
+}
+
+/* arrow */
+#ui-datepicker-div.aj-plugin-fw-datepicker-div.ui-datepicker .ui-datepicker-prev,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div.ui-datepicker .ui-datepicker-next,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-datepicker-prev.ui-datepicker-prev-hover,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-datepicker-prev.ui-datepicker-next-hover {
+    top    : 1px;
+    cursor : pointer;
+}
+
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-datepicker-prev.ui-datepicker-prev,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-datepicker-prev.ui-datepicker-prev-hover {
+    left : 5px;
+}
+
+#ui-datepicker-div.aj-plugin-fw-datepicker-div.ui-datepicker .ui-datepicker-next,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-datepicker-next.ui-datepicker-next-hover {
+    right : 1px;
+}
+
+#ui-datepicker-div.aj-plugin-fw-datepicker-div.ui-datepicker table {
+    font-size : 10px;
+}
+
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-state-default,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div.ui-widget-content .ui-state-default,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-widget-header .ui-state-default {
+    background : #fff;
+    border     : 1px solid #d9d9d9;
+
+}
+
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-state-hover,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div.ui-widget-content .ui-state-hover,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div a.ui-state-default:focus,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div.ui-widget-content .ui-state-focus,
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-widget-header .ui-state-focus {
+    background : #ebf1f3;
+    border     : 1px solid #bfd5dd;
+    outline    : none;
+    box-shadow : none;
+}
+
+#ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-widget-header .ui-state-hover,
+.woocommerce #ui-datepicker-div.aj-plugin-fw-datepicker-div .ui-state-focus {
+    background : none;
+    border     : 0;
+}
+
+/** colorpicker **/
+.aj-plugin-ui .iris-slider-offset.ui-slider.ui-widget-content {
+    background : transparent !important;
+    height     : auto !important;
+}
+
+.aj-plugin-ui .aj-plugin-fw-field-wrapper .aj-colorpicker-group:not(:first-child) {
+    margin-top : 20px;
+}
+
+.aj-plugin-ui .aj-plugin-fw-field-wrapper .iris-picker,
+.aj-plugin-ui .aj-plugin-fw-field-wrapper .wp-picker-holder {
+    display : none !important;
+}
+
+.aj-plugin-ui .aj-plugin-fw-field-wrapper .wp-picker-input-wrap,
+.aj-plugin-ui .aj-plugin-fw-field-wrapper .wp-picker-input-wrap > * {
+    display        : inline-block !important;
+    vertical-align : middle;
+}
+
+.aj-plugin-ui .aj-plugin-fw-field-wrapper .wp-picker-active .iris-picker,
+.aj-plugin-ui .aj-plugin-fw-field-wrapper .wp-picker-active .wp-picker-holder {
+    display : block !important;
+}
+
+.woocommerce .aj-plugin-ui .iris-picker {
+    border     : 0;
+    margin-top : 20px;
+}
+
+.aj-plugin-ui .aj-plugin-fw input[type=text].wp-color-picker {
+    border  : 0;
+    padding : 2px 5px;
+    height  : 30px;
+}
+
+.aj-plugin-ui .wp-color-result-text {
+    display : none;
+}
+
+.aj-plugin-ui .wp-picker-container .wp-color-result.button {
+    width          : 30px;
+    height         : 30px;
+    box-shadow     : none;
+    border         : 1px solid #d9d9d9;
+    margin-bottom  : 0;
+    padding        : 0;
+    display        : inline-block;
+    vertical-align : middle;
+    box-sizing     : content-box;
+}
+
+.aj-plugin-ui .wp-picker-default-custom {
+    cursor         : pointer;
+    width          : 25px;
+    padding        : 0 5px;
+    display        : inline-block;
+    vertical-align : middle;
+    position       : relative;
+}
+
+.aj-plugin-ui .wp-picker-default-custom input.button {
+    opacity  : 0;
+    margin   : 0;
+    padding  : 0;
+    position : absolute;
+    top      : 0;
+    right    : 0;
+    left     : 0;
+    bottom   : 0;
+    z-index  : 2;
+}
+
+.aj-plugin-ui .wp-picker-default-custom:before {
+    content     : "\e91a";
+    text-indent : 0;
+    font-family : 'aj-icon';
+    font-size   : 20px;
+    color       : #d8d8d8;
+    font-weight : normal;
+    width       : 15px;
+    display     : block;
+    background  : none;
+    line-height : 20px;
+    margin-left : 8px;
+}
+
+.aj-plugin-ui .wp-picker-container {
+    width         : auto;
+    display       : inline-block;
+    border        : 1px solid #d9d9d9;
+    border-radius : 8px;
+    padding       : 5px;
+}
+
+.aj-plugin-ui .iris-picker .iris-square-inner {
+    box-shadow : none;
+    border     : 1px solid #d9d9d9;
+}
+
+.aj-plugin-ui .aj-plugin-fw-multi-colorpicker {
+    margin-top : -20px;
+}
+
+.aj-plugin-ui .aj-single-colorpicker {
+    display    : inline-block;
+    width      : 220px;
+    margin-top : 20px;
+}
+
+.aj-plugin-ui .aj-single-colorpicker > label {
+    display     : block;
+    font-size   : 11px;
+    font-weight : 600;
+    margin      : 0 0 10px 0;
+}
+
+/* RANGE SLIDER */
+.aj-plugin-ui .aj-plugin-fw-slider-container .ui-slider-horizontal .ui-slider-handle {
+    top : -45px !important;
+}
+
+.aj-plugin-ui .aj-plugin-fw-slider-container .ui-slider-horizontal .ui-slider-handle {
+    position           : absolute;
+    top                : -33px;
+    left               : 0;
+    width              : auto !important;
+    height             : auto !important;
+    padding            : 2px 8px;
+    margin-left        : -15px;
+    font-size          : 12px;
+    line-height        : 20px;
+    color              : #4e8ba2;
+    text-align         : center;
+    background-color   : #fff;
+    border             : 1px solid #fff;
+    border-radius      : 3px;
+    -webkit-transition : opacity .3s ease-in-out 0s;
+    transition         : opacity .3s ease-in-out 0s;
+    box-shadow         : 0px 1px 7px 0px rgba(1, 1, 1, 0.13);
+}
+
+.aj-plugin-ui .aj-plugin-fw-slider-container .ui-slider-horizontal .ui-slider-handle:before {
+    position          : absolute;
+    bottom            : -3px;
+    left              : 50%;
+    display           : inline-block;
+    width             : 6px;
+    height            : 6px;
+    margin-left       : -3px;
+    content           : "";
+    background-color  : #fff;
+    -webkit-transform : rotate(-45deg);
+    -ms-transform     : rotate(-45deg);
+    transform         : rotate(-45deg);
+}
+
+.aj-plugin-ui .aj-plugin-fw-slider-container .ui-slider.ui-widget-content .ui-widget-header {
+    background : #4e8ba2;
+}
+
+.aj-plugin-ui .aj-plugin-fw-slider-container .ui-slider-horizontal .ui-slider-handle:after {
+    content       : '';
+    width         : 17px;
+    height        : 17px;
+    display       : block;
+    position      : absolute;
+    background    : #fff;
+    top           : 37px;
+    border-radius : 50%;
+    box-shadow    : 0px 1px 6px 0px rgba(1, 1, 1, 0.25);
+    cursor        : grab;
+}
+
+.aj-plugin-ui .aj-plugin-fw-slider-container .ui-slider-horizontal .ui-slider-handle:active:after {
+    cursor : grabbing;
+}
+
+.aj-plugin-ui .aj-plugin-fw-slider-container .ui-slider.ui-widget-content {
+    height : 5px !important;
+}
+
+.aj-plugin-ui .aj-plugin-fw-slider-container .ui-slider .minCaption,
+.aj-plugin-ui .aj-plugin-fw-slider-container .ui-slider .maxCaption {
+    font-weight : 700;
+    font-size   : 12px;
+}
+
+
+/* ADD_BOX AND TOGGLE */
+.aj-plugin-ui .aj-add-box,
+.aj-plugin-ui .aj-toggle-row {
+    width         : 70%;
+    border        : 1px solid #d9d9d9;
+    box-shadow    : none;
+    border-radius : 4px;
+    margin        : 20px 0;
+    padding       : 10px;
+    box-sizing    : border-box;
+    background    : white;
+}
+
+.aj-plugin-ui .aj-toggle-row {
+    cursor     : pointer;
+    transition : all ease 0.5s;
+}
+
+.aj-plugin-ui .aj-toggle-row.fixed {
+    margin : 0;
+}
+
+.aj-plugin-ui .aj-toggle-row.highlight {
+    transition : all ease 0.5s;
+    /*box-shadow: 0 0 7px rgb(81, 117, 129);*/
+    box-shadow : 0 0 7px rgb(30, 140, 190);
+
+    display    : block;
+}
+
+.aj-plugin-ui .aj-add-box {
+    padding : 25px;
+    display : none;
+}
+
+.aj-plugin-ui .aj-toggle-title {
+    position : relative;
+}
+
+.aj-plugin-ui #plugin-fw-wc .aj-toggle-title h3,
+.aj-plugin-ui.metaboxes-tab h3,
+.aj-plugin-ui .aj-toggle-title h3 {
+    padding        : 0px 20px 0px 25px;
+    margin         : 3px 0;
+
+    display        : inline-block;
+    position       : relative;
+    min-width      : 173px;
+    box-sizing     : border-box;
+    font-weight    : 600;
+    font-size      : 15px;
+    color          : #23282d;
+    text-transform : inherit;
+}
+
+.aj-plugin-ui .aj-toggle-title .subtitle {
+    padding-left : 0;
+    padding-top  : 8px;
+    font-size    : 12px;
+}
+
+.aj-plugin-ui .aj-toggle {
+    position    : absolute;
+    width       : 30px;
+    cursor      : pointer;
+    left        : 0;
+    top         : 0;
+    bottom      : 0;
+    margin      : auto;
+    display     : flex;
+    align-items : center;
+}
+
+.aj-plugin-ui .aj-toggle > span:before {
+    color : #405e69;
+}
+
+.aj-plugin-ui .aj-toggle > span {
+    position    : absolute;
+    right       : 50%;
+    transition  : transform .3s;
+    line-height : 1;
+}
+
+
+.aj-plugin-ui .aj-toggle-row-opened .aj-toggle span {
+    transform : rotateZ(90deg);
+}
+
+.aj-plugin-ui .aj-toggle-content {
+    display  : none;
+    position : relative;
+    padding  : 30px 25px;
+}
+
+.aj-plugin-ui .aj-toggle-row-opened .aj-toggle-content {
+    /*  display: block;*/
+}
+
+.aj-plugin-ui .aj-add-box-row,
+.aj-plugin-ui .aj-toggle-content .aj-toggle-content-row {
+    display       : table;
+    margin-bottom : 40px;
+}
+
+.aj-plugin-ui .aj-add-box-row > label,
+.aj-plugin-ui .aj-toggle-content .aj-toggle-content-row > label {
+    display        : table-cell;
+    min-width      : 180px;
+    padding-right  : 20px;
+    color          : #33373b;
+    font-size      : 14px;
+    vertical-align : top;
+    font-weight    : 600;
+}
+
+.aj-plugin-ui .aj-add-box-row .aj-plugin-fw-field-wrapper:not(.aj-plugin-fw-title-field-wrapper),
+.aj-plugin-ui .aj-plugin-fw-field-wrapper:not(.aj-plugin-fw-title-field-wrapper) {
+    /* display: table-cell;*/
+    width          : auto;
+    float          : none;
+    vertical-align : middle;
+    position       : relative;
+}
+
+.aj-plugin-ui .aj-add-box-row span.aj-icon,
+.aj-plugin-ui .aj-toggle-content .aj-toggle-content-row span.aj-icon {
+    position : absolute;
+    right    : 15px;
+    top      : 0;
+    bottom   : 0;
+}
+
+.aj-plugin-ui .aj-add-box-buttons,
+.aj-plugin-ui .aj-toggle-content-buttons {
+    text-align : right;
+}
+
+.aj-plugin-ui .aj-toggle-onoff {
+    position : absolute;
+    cursor   : pointer;
+    right    : 0;
+}
+
+.aj-plugin-ui .aj-toggle_wrapper.ui-sortable .aj-toggle-onoff {
+    right : 30px;
+}
+
+.aj-plugin-ui .aj-toggle-row .aj-icon-drag {
+    position    : absolute;
+    right       : 0;
+    top         : 25%;
+    bottom      : 0;
+    line-height : 1;
+}
+
+.aj-plugin-ui .aj-toggle-row.with-subtitle .aj-toggle-onoff {
+    top : 25%;
+}
+
+/** SPINNER **/
+.aj-plugin-ui .spinner {
+    vertical-align : -5px;
+    float          : none;
+}
+
+.aj-plugin-ui .spinner.show {
+    visibility : visible;
+}
+
+/* LIST TABLE */
+.aj-plugin-ui .form-table .list-table td {
+    padding : 15px 0px;
+}
+
+.woocommerce.aj-plugin-fw-panel .aj-plugin-ui table.form-table .bulkactions select {
+    border     : 1px solid #d8d8d8;
+    max-width  : 200px;
+    max-height : 30px;
+    padding    : 0 10px;
+}
+
+.aj-plugin-ui .form-table .list-table th {
+    width : initial;
+}
+
+.aj-plugin-ui #plugin-fw-wc table.form-table th.check-column {
+    padding-left : 3px;
+}
+
+.aj-plugin-ui #plugin-fw-wc table.wp-list-table tbody td {
+    padding-left : 20px;
+}
+
+.aj-plugin-ui #plugin-fw-wc table.wp-list-table th,
+.aj-plugin-ui #plugin-fw-wc table.wp-list-table td {
+    padding : 15px 20px 15px 20px;
+}
+
+.aj-plugin-ui #plugin-fw-wc table.wp-list-table thead td,
+.aj-plugin-ui #plugin-fw-wc table.wp-list-table thead th,
+.aj-plugin-ui #plugin-fw-wc table.wp-list-table tfoot td,
+.aj-plugin-ui #plugin-fw-wc table.wp-list-table tfoot th {
+    padding : 3px 20px;
+}
+
+.aj-plugin-ui #plugin-fw-wc table.wp-list-table thead a,
+.aj-plugin-ui #plugin-fw-wc table.wp-list-table tfoot a {
+    padding-left : 0;
+}
+
+.aj-plugin-ui .aj-plugin-fw-list-table .list-table-title {
+    margin-bottom : 20px;
+    line-height   : 1.2;
+}
+
+.aj-plugin-ui .aj-plugin-fw-list-table .list-table-title > * {
+    vertical-align : middle;
+}
+
+.aj-plugin-ui .aj-plugin-fw-list-table h2 {
+    border       : 0;
+    padding      : 0;
+    display      : inline-block;
+    margin-right : 10px;
+    line-height  : inherit;
+}
+
+.aj-plugin-ui .form-table .aj-plugin-fw-list-table table th {
+    vertical-align : middle;
+}
+
+.aj-plugin-ui #doaction, .aj-plugin-ui #doaction2,
+.aj-plugin-ui #post-query-submit,
+.aj-plugin-ui #search-submit,
+.aj-plugin-ui .button.filter-button {
+    margin-left : 0;
+    height      : 33px;
+    padding     : 0 10px;
+    line-height : 33px;
+}
+
+.aj-plugin-ui .tablenav {
+    margin : 20px 0;
+}
+
+.aj-plugin-ui .form-table td p.aj-section-description {
+    color         : #716269;
+    margin-bottom : 20px;
+}
+
+/** Time picker width*/
+.aj-plugin-ui input.ui-timepicker-input {
+    width : 100px !important;
+}
+
+/** date format **/
+.aj-plugin-ui .aj-plugin-fw-date-format code {
+    margin-left : 30px;
+}
+
+.aj-plugin-ui .aj-plugin-fw-date-format input[type=text].small-text {
+    margin-left : 45px;
+}
+
+/** checkbox columns **/
+.aj-plugin-ui td.forminp-checkbox.two-cols fieldset {
+    width         : calc(50% - 20px);
+    padding-right : 20px;
+    float         : left;
+}
+
+.aj-plugin-ui td.forminp-checkbox.two-cols fieldset:nth-child(2n+1) {
+    clear : both;
+}
+
+.aj-plugin-ui td.forminp-checkbox.three-cols fieldset {
+    width         : calc(33% - 10px);
+    padding-right : 10px;
+    float         : left;
+}
+
+.aj-plugin-ui td.forminp-checkbox.three-cols fieldset:nth-child(3n+1) {
+    clear : both;
+}
+
+.aj-plugin-fw-checkbox-field-wrapper {
+    display      : inline-block !important;
+    margin-right : 10px;
+}
+
+.aj-plugin-fw-checkbox-field-wrapper + span.description {
+    display        : inline-block;
+    vertical-align : middle;
+    margin         : 0;
+}
+
+.aj-plugin-ui span.description {
+    margin-top  : 10px;
+    line-height : 20px;
+    max-width   : 40%;
+    min-width   : min(100%, 360px);
+}
+
+.aj-plugin-fw-option-with-description {
+    display        : table-cell;
+    width          : 90%;
+    vertical-align : top;
+}
+
+
+/**
+ * Required
+ */
+.aj-plugin-fw-panel-wc-row.aj-plugin-fw--required th.titledesc > label:after,
+.aj-plugin-fw-metabox-field-row.aj-plugin-fw--required label:first-child:after,
+.aj-plugin-fw-toggle-element-field-wrapper .aj-plugin-fw--required > label:first-child:after {
+    content     : '*';
+    color       : #ea0034;
+    font-weight : 800;
+    margin-left : 4px;
+}
+
+/** AJ PANEL **/
+.aj-plugin-ui #aj-plugin-fw-panel {
+    margin-top : -10px;
+}
+
+.aj-plugin-ui #plugin-fw-wc, .aj-plugin-ui #aj-plugin-fw-panel {
+    padding-top : 0;
+}
+
+.aj-plugin-ui .plugin-option tr {
+    border : 0;
+}
+
+/** MULTI SELECT **/
+.aj-plugin-ui .aj-plugin-fw-multi-select .aj-single-select {
+    display      : inline-block;
+    width        : 30%;
+    margin-right : 3%;
+    max-width    : 400px;
+}
+
+.aj-plugin-ui .aj-plugin-fw-multi-select .aj-single-select label {
+    display     : block;
+    font-size   : 11px;
+    font-weight : 600;
+    margin      : 0 0 10px 0;
+}
+
+.aj-plugin-ui .aj-plugin-fw-multi-select .aj-single-select select,
+.aj-plugin-ui .aj-plugin-fw-multi-select .aj-single-select span.select2 {
+    width     : 100% !important;
+    min-width : auto !important;
+}
+
+/**
+ * Dimensions
+ */
+
+.aj-plugin-fw-dimensions {
+    display     : flex;
+    align-items : flex-end;
+}
+
+.aj-plugin-fw-dimensions__units {
+    flex          : 1;
+    display       : flex;
+    margin-left   : 5px;
+    width         : calc(100% - 105px);
+    flex-wrap     : wrap;
+    min-height    : 38px;
+    margin-bottom : -8px;
+}
+
+.aj-plugin-fw-dimensions__unit {
+    display     : inline-block;
+    padding     : 0 3px;
+    cursor      : pointer;
+    font-weight : 700;
+}
+
+.aj-plugin-fw-dimensions__unit--selected {
+    text-decoration : underline;
+    color           : #007694;
+}
+
+.aj-plugin-fw-dimensions__unit--unique {
+    text-decoration : none;
+    cursor          : default;
+}
+
+.aj-plugin-fw-dimensions__dimensions {
+    display     : flex;
+    margin      : 0;
+    align-items : flex-end;
+    max-width   : 400px;
+    width       : 400px;
+}
+
+.aj-plugin-fw-dimensions__dimension {
+    text-align : center;
+    flex       : 1;
+}
+
+.aj-plugin-fw-dimensions__dimension > input[type=number].aj-plugin-fw-dimensions__dimension__number,
+.woocommerce.aj-plugin-fw-panel .aj-plugin-ui .aj-plugin-fw-dimensions__dimension > input[type=number].aj-plugin-fw-dimensions__dimension__number,
+.aj-plugin-ui .aj-plugin-fw-dimensions__dimension > input[type=number].aj-plugin-fw-dimensions__dimension__number,
+.woocommerce .aj-plugin-fw table.form-table .aj-plugin-fw-dimensions__dimension > input[type=number].aj-plugin-fw-dimensions__dimension__number {
+    width         : 100%;
+    min-width     : 0;
+    border-radius : 0;
+    border        : 1px solid #d8d8d8;
+    border-left   : none;
+    height        : 38px;
+    text-align    : center;
+    padding-right : 0;
+}
+
+.aj-plugin-fw-dimensions__dimension:first-child > input[type=number].aj-plugin-fw-dimensions__dimension__number,
+.woocommerce.aj-plugin-fw-panel .aj-plugin-ui .aj-plugin-fw-dimensions__dimension:first-child > input[type=number].aj-plugin-fw-dimensions__dimension__number,
+.aj-plugin-ui .aj-plugin-fw-dimensions__dimension:first-child > input[type=number].aj-plugin-fw-dimensions__dimension__number,
+.woocommerce .aj-plugin-fw table.form-table .aj-plugin-fw-dimensions__dimension:first-child > input[type=number].aj-plugin-fw-dimensions__dimension__number {
+    border-left   : 1px solid #d8d8d8;
+    border-radius : 6px 0 0 6px;
+}
+
+.aj-plugin-fw-dimensions__dimension:last-child > input[type=number].aj-plugin-fw-dimensions__dimension__number,
+.woocommerce.aj-plugin-fw-panel .aj-plugin-ui .aj-plugin-fw-dimensions__dimension:last-child > input[type=number].aj-plugin-fw-dimensions__dimension__number,
+.aj-plugin-ui .aj-plugin-fw-dimensions__dimension:last-child > input[type=number].aj-plugin-fw-dimensions__dimension__number {
+    border-radius : 0 6px 6px 0;
+}
+
+.metaboxes-tab .aj-plugin-fw-dimensions__dimension__label,
+.aj-plugin-ui.metaboxes-tab label.aj-plugin-fw-dimensions__dimension__label {
+    float       : none;
+    margin      : 0;
+    width       : auto;
+    font-weight : inherit;
+    line-height : inherit;
+}
+
+.aj-plugin-fw-dimensions__dimension__label,
+.metaboxes-tab .aj-plugin-fw-dimensions__dimension__label,
+.aj-plugin-ui.metaboxes-tab label.aj-plugin-fw-dimensions__dimension__label {
+    text-transform : uppercase;
+    letter-spacing : 2px;
+    font-size      : 11px;
+    margin-bottom  : 5px;
+    display        : inline-block;
+}
+
+.aj-plugin-fw-dimensions__linked {
+    cursor : pointer;
+}
+
+.aj-plugin-fw-dimensions__linked span {
+    border        : 1px solid #d8d8d8;
+    border-left   : none;
+    height        : 38px;
+    border-radius : 0 6px 6px 0;
+    box-sizing    : border-box;
+    padding       : 8px 10px;
+    width         : 100%;
+}
+
+.aj-plugin-fw-dimensions--linked-active .aj-plugin-fw-dimensions__linked span {
+    color        : #fff;
+    background   : #007694;
+    border-color : #007694;
+}
+
+
+/** OVERRIDE WOOCOMMERCE CLASSES FOR 5.3 */
+.branch-5-3 .aj-plugin-fw .select2-container .select2-selection--single .select2-selection__arrow {
+    background : none;
+}
+
+.branch-5-3 .aj-plugin-fw .select2-container.select2-container--focus .select2-selection--single, .branch-5-3 .aj-plugin-fw .select2-container.select2-container--open .select2-selection--multiple, .branch-5-3 .aj-plugin-fw .select2-container.select2-container--open .select2-selection--single {
+    box-shadow : none;
+}
+
+@media screen and (max-width : 1440px) {
+    .aj-plugin-ui .aj-add-box,
+    .aj-plugin-ui .aj-toggle-row:not(.fixed) {
+        width : 80%;
+    }
+
+
+    .aj-plugin-ui .aj-add-box-row,
+    .aj-plugin-ui .aj-toggle-content .aj-toggle-content-row,
+    .aj-plugin-ui .aj-add-box-row label {
+        display : block;
+    }
+
+    .aj-plugin-ui .aj-toggle-content .aj-toggle-content-row > label {
+        display : block;
+    }
+
+    .aj-plugin-ui .aj-plugin-fw-option-with-description {
+        width : 100%;
+    }
+
+    .aj-plugin-ui .aj-add-box-row,
+    .aj-plugin-ui .aj-add-box-row label {
+        display : block;
+    }
+
+    .aj-plugin-ui .aj-toggle-content .aj-plugin-fw-option-with-description,
+    .aj-plugin-ui .aj-add-box-row .aj-plugin-fw-option-with-description {
+        display     : block;
+        padding-top : 20px;
+    }
+
+
+    .aj-plugin-ui .aj-add-box-row .aj-plugin-fw-option-with-description span.description {
+        max-width : 100%;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+
+    .aj-plugin-ui .aj-add-box,
+    .aj-plugin-ui .aj-toggle-row:not(.fixed) {
+        width : 90%;
+    }
+
+    .aj-plugin-ui td.forminp-checkbox.two-cols fieldset {
+        width         : 100%;
+        padding-right : 20px;
+        float         : left;
+    }
+
+    .aj-plugin-ui td.forminp-checkbox.three-cols fieldset {
+        width         : calc(50% - 10px);
+        padding-right : 10px;
+        float         : left;
+    }
+
+    .aj-plugin-ui td.forminp-checkbox.two-cols fieldset:nth-child(2n+1) {
+        clear : both;
+    }
+
+    .aj-plugin-ui td.forminp-checkbox.three-cols fieldset:nth-child(3n+1) {
+        clear : initial;
+    }
+
+}
+
+@media screen and (max-width : 782px) {
+    .aj-plugin-fw-banner h1 {
+        line-height : 1.2em;
+    }
+
+    .aj-plugin-fw-banner h1 {
+        font-size     : 12px;
+        padding-right : 10px;
+    }
+
+    .aj-plugin-ui .aj-add-box,
+    .aj-plugin-ui .aj-toggle-row {
+        width : 100%;
+    }
+
+    .aj-plugin-ui td.forminp-checkbox.two-cols fieldset,
+    .aj-plugin-ui td.forminp-checkbox.three-cols fieldset {
+        width : 100%;
+        clear : initial;
+    }
+
+    .aj-plugin-ui .wp-picker-container .wp-color-result.button {
+        padding : 0;
+    }
+
+    .aj-plugin-ui #plugin-fw-wc table.form-table th,
+    #aj-plugin-fw-panel table.form-table th.titledesc,
+    .aj-plugin-ui #plugin-fw-wc table.form-table td,
+    #aj-plugin-fw-panel table.form-table td.forminp {
+        padding : 20px 20px;
+    }
+
+    .aj-plugin-ui #plugin-fw-wc table.form-table th.titledesc,
+    #aj-plugin-fw-panel table.form-table th.titledesc {
+        padding-bottom : 0;
+    }
+}
+
+@media (max-width : 480px) {
+    .aj-plugin-ui .nav-tab {
+        font-size : 12px;
+    }
+
+    .aj-plugin-ui h2 {
+        padding : 20px 20px;
+    }
+
+    .aj-plugin-ui [type="radio"]:checked + label:before, .aj-plugin-ui [type="radio"]:not(:checked) + label:before {
+        width  : 14px;
+        height : 14px;
+    }
+
+    .aj-plugin-ui [type="radio"]:checked + label:after, .aj-plugin-ui [type="radio"]:not(:checked) + label:after {
+        width  : 10px;
+        height : 10px;
+        top    : 3px;
+        left   : 3px;
+    }
+
+    .aj-plugin-ui [type="radio"]:checked + label, .aj-plugin-ui [type="radio"]:not(:checked) + label {
+        padding-left : 25px;
+    }
+
+    .aj-plugin-ui [type="radio"]:checked + label, .aj-plugin-ui [type="radio"]:not(:checked) + label {
+        font-size : 13px;
+    }
+
+    .aj-plugin-ui span.description {
+        font-size : 12px;
+    }
+
+    .aj-plugin-ui #plugin-fw-wc table.form-table th,
+    #aj-plugin-fw-panel table.form-table th.titledesc,
+    .aj-plugin-ui #plugin-fw-wc table.form-table td,
+    #aj-plugin-fw-panel table.form-table td.forminp {
+        padding : 15px 20px;
+    }
+
+    .aj-plugin-ui .aj-plugin-fw-onoff-container input + span {
+        width  : 48px;
+        height : 20px;
+    }
+
+    .aj-plugin-ui .aj-plugin-fw-onoff-container input + span:before {
+        top  : 3px;
+        left : 3px;
+    }
+
+    .aj-plugin-ui .aj-plugin-fw-onoff-container input:checked + span:before, .aj-plugin-ui.aj-plugin-fw-onoff-container input.onoffchecked + span:before {
+        left : 30px;
+    }
+
+    .aj-plugin-ui .aj-plugin-fw-onoff-container input:checked + span:after, .aj-plugin-ui.aj-plugin-fw-onoff-container input.onoffchecked + span:after {
+        font-size  : 11px;
+        padding    : 0px 6px;
+        margin-top : 3px;
+    }
+
+    .aj-plugin-ui .aj-plugin-fw-onoff-container input + span:after {
+        font-size    : 11px;
+        padding-left : 24px;
+        margin-top   : 3px;
+    }
+
+    .aj-plugin-fw .select2-container .select2-selection--single .select2-selection__rendered {
+        font-size : 14px;
+    }
+
+    .aj-plugin-ui input {
+        font-size : 14px;
+    }
+}
