@@ -402,7 +402,7 @@ if ( ! class_exists( 'AJ_WCWL_Frontend' ) ) {
 					'mobile_media_query' => apply_filters( 'aj_wcwl_mobile_media_query', 768 ),
 					'labels' => array(
 						'cookie_disabled' => __( 'We are sorry, but this feature is available only if cookies on your browser are enabled.', 'aj-woocommerce-wishlist' ),
-						'added_to_cart_message' => sprintf( '<div class="woocommerce-notices-wrapper"><div class="woocommerce-message" role="alert">%s</div></div>', apply_filters( 'aj_wcwl_added_to_cart_message', __( 'Product added to cart successfully', 'aj-woocommerce-wishlist' ) ) ),
+						'added_to_cart_message' => sprintf( '<div class="woocommerce-notices-wrapper hidden"><div class="woocommerce-message" role="alert">%s</div></div>', apply_filters( 'aj_wcwl_added_to_cart_message', __( 'Product added to cart successfully', 'aj-woocommerce-wishlist' ) ) ),
 					),
 					'actions' => array(
 						'add_to_wishlist_action' => 'add_to_wishlist',
